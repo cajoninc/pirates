@@ -42,6 +42,7 @@
         <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
         <!-- 必要ないcss -->
         <!-- <link rel="stylesheet" type="text/css" href="css/styleme.css"> -->
+
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -91,7 +92,7 @@
         <!-- header 終了-->
 
         <!-- おび開始 -->
-        <div class="u_top_box01">
+        <div class="l_top_box01">
             <div class="center_box container">
                 <p class="f_txt01">
                  <strong>きっと出会える</strong><br>幸せを運ぶウミガメとの魅惑のひととき
@@ -115,7 +116,7 @@
         <div class="row-fluid team1 ">
             <div class="container">
                 <div class="span6 " id="first-person">
-                    <div class="thumbnail">
+                    <div class="l_thumbnail">
                         <img src="img/5.jpg" alt="team 1">
                     </div>
                 </div>
@@ -225,155 +226,169 @@
             </div>
         </div>
         <!--スケジュール アコーディオン開始 -->
-        <!-- オプションツアー開始 -->
-        <div class="section secondary-section " id="portfolio">
-            <div class="container">
-                <div class=" title">
-                    <h1>ウミガメフォトと人気のウミガメの紹介</h1>
-                    <p>
-                     専門店だからこそのクオリティーを思い出に<br>
-                     画像・映像は全て、ウミガメウォッチングで<br>
-                     撮影されたオリジナルです
-                    </p>
+
+        <!--  tab 開始 -->
+        <div id="license_tab">
+          <div class="container">
+            <ul class="tabs">
+              <li>
+                <input name="tab" id="tab1" type="radio" checked />
+                <label for="tab1">ご案内</label>
+                <div class="contents tab1">
+                  <div class="row-fluid team1 ">
+                    <div class="container">
+                        <div class="span6 " id="first-person">
+                            <div class="thumbnail">
+                                <img src="img/5.jpg" alt="team 1">
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <div class="highlighted-box_01 center">
+                              <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr><p>スクーバダイビングのＣカードを<br>取得するためのコース</p></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>水中の世界は驚きの連続です。</td></tr>
+                                        <tr><td>カラフルな魚と遊んだり壮大な地形を楽しんだり</td></tr>
+                                        <tr><td>宝探しをしたり、感動的な出来事ばかりです。</td></tr>
+                                        <tr><td>そんな水中世界を楽しむためには</td></tr>
+                                        <tr><td>Ｃカードと呼ばれる認定証が必要です。</td></tr>
+                                        <tr><td>勉強はインターネットで事前に行って頂きます</td></tr>
+                                        <tr><td>学科講習・実技講習・海洋実習と進んでください。</td></tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                            <button type="button" class="btn btn-primary btn-lg btn-block">
+                            <a href="form.html">お申し込みはこちら</a>
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-                <ul class="nav nav-pills">
-                    <li class="filter" data-filter="all">
-                        <a href="#noAction">All</a>
-                    </li>
-                    <li class="filter" data-filter="web">
-                        <a href="#noAction">ウミガメフォト</a>
-                    </li>
-                    <li class="filter" data-filter="photo">
-                        <a href="#noAction">ウミガメ動画</a>
-                    </li>
-                </ul>
-                <!-- Start details for portfolio project 1 -->
-                <div id="single-project">
-                    <ul id="portfolio-grid" class="thumbnails row">
-                        <!-- オプション１ -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/3.jpg" alt="project 1">
-                                 <button type="button" class="btn btn-inverse">
-                                  <a href="snorkel.html">スノーケリング</a>
-                                 </button>
-                                <p>お一人様　２，０００円</p>
+              </li>
+              <li>
+                <input name="tab" id="tab2" type="radio"/>
+                <label for="tab2">No1 学科講習</label>
+                <div class="contents tab2">
+                  <div class="row-fluid team1 ">
+                    <div class="container">
+                        <div class="span6">
+                            <div class="highlighted-box_01 center">
+                              <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr><p>学科講習のセルフトレーニングにトライ！<br>
+                                        受講料・無料　空いた時間で受講できます</p></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>セルフトレーニングではマニュアルを読み</td></tr>
+                                        <tr><td>ダイビングに必要な基礎知識、ダイビング器材</td></tr>
+                                        <tr><td>・水中環境・水中生理</td></tr>
+                                        <tr><td>・ダイビングルール・ダイビングスキルを</td></tr>
+                                        <tr><td>マスターします。</td></tr>
+                                        <tr><td>マニュアルは、ブラウザでご覧いただける他</td></tr>
+                                        <tr><td>ダウンロードして印刷もできます。</td></tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                            <button type="button" class="btn btn-primary btn-lg btn-block">
+                            <a href="http://www.net-diver.org/selftraining/selftraining.html" target="_blank">セルフトレーニング(学科講習)を始めよう！</a>
+                            </button>
                             </div>
-                        </li>
-                        <!-- コース１ -->
-                        <li class="span4 mix photo">
-                            <div class="thumbnail_all">
-                                <img src="img/9.jpg" alt="project 2">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="snorkel.html">
-                                     <small>ケラマクルージング＆スノーケリングツアー</small>
-                                  </a>
-                                 </button>
-                                <a href="#"></a>
-                                <p>お一人様　４，８００円</p>
+                        </div>
+                        <div class="span6 " id="first-person">
+                            <div class="thumbnail">
+                                <img src="img/5.jpg" alt="team 1">
                             </div>
-                        </li>
-                        <!-- オプション２ -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/10.jpg" alt="project 4">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   パラセーリング
-                                  </a>
-                                 </button>
-                                <p>お一人様　７，０００円</p>
-                            </div>
-                        </li>
-                        <!-- コース２ -->
-                        <li class="span4 mix photo">
-                            <div class="thumbnail_all">
-                                <img src="img/12.jpg" alt="project 5">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="taiken_daiving.html">
-                                   <small>ウミガメウォッチングツアー(体験ダイビング)</small>
-                                  </a>
-                                 </button>
-                                <p>お一人様　９，８００円</p>
-                            </div>
-                        </li>
-                        <!-- オプション３ -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/11.jpg" alt="project 8">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   ウェイクボード
-                                  </a>
-                                 </button>
-                                <p>お一人様　３，０００円</p>
-                            </div>
-                        </li>
-                        <!-- オプション４ -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/7.jpg" alt="project 7" />
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   マリンジェット
-                                  </a>
-                                 </button>
-                                <p>お一人様　２，５００円</p>
-                            </div>
-                        </li>
-                        <!-- オプション５ -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/13.jpg" alt="project 8">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   ウェイクボード教室
-                                  </a>
-                                 </button>
-                                <p>お一人様　５，０００円</p>
-                            </div>
-                        </li>
-                        <!-- オプション6 -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/14.jpg" alt="project 8">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   バナナボート
-                                  </a>
-                                 </button>
-                                <p>お一人様　１，５００円</p>
-                            </div>
-                        </li>
-                        <!-- オプション7 -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/15.jpg" alt="project 8">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   スーパーマーブル
-                                  </a>
-                                 </button>
-                                <p>お一人様　２，０００円</p>
-                            </div>
-                        </li>
-                        <!-- オプション8 -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail_all">
-                                <img src="img/16.jpg" alt="project 8">
-                                <button type="button" class="btn btn-inverse">
-                                  <a href="form.html">
-                                   <small>オプションファンダイブ</small>
-                                  </a>
-                                 </button>
-                                <p>お一人様　７，２００円</p>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </li>
+              <li>
+                <input name="tab" id="tab3" type="radio"/>
+                <label for="tab3">No2 学科試験</label>
+                <div class="contents tab3">
+                  <div class="row-fluid team1 ">
+                    <div class="container">
+                        <div class="span6 " id="first-person">
+                            <div class="thumbnail">
+                                <img src="img/5.jpg" alt="team 1">
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <div class="highlighted-box_01 center">
+                              <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr><p>ファイナルチェックにチャレンジ！<br>
+                                        受講料・無料　空いた時間で受講できます</p></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>セルフトレーニングマニュアルをマスターしたら</td></tr>
+                                        <tr><td>ファイナルチェックにチャレンジしましょう</td></tr>
+                                        <tr><td>ファイナルチェックは何度でも受けられますので</td></tr>
+                                        <tr><td>自信がついたら一度トライしてみましょう</td></tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                            <button type="button" class="btn btn-primary btn-lg btn-block">
+                            <a href="http://www.net-diver.org/finalcheck/finalcheck.htm" target="_blank">ファイナルチェック(学科試験)にチャレンジ！</a>
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <input name="tab" id="tab4" type="radio"/>
+                <label for="tab4">No3 実技について</label>
+                <div class="contents tab4">
+                  <div class="row-fluid team1 ">
+                    <div class="container">
+                        <div class="span6">
+                            <div class="highlighted-box_01 center">
+                              <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr><p>楽しいダイビングライフのはじまりです<br>
+                                        実技トレーニングにチャレンジ！</p></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Eメールまたは電話にて当店まで</td></tr>
+                                        <tr><td>料金・日程のご確認と予約をしてください</td></tr>
+                                        <tr><td><a href="mailto:okinawa-umizoku@8102.co.jp">メールでのお問い合わせはこちら</a></td></tr>
+                                        <tr><td>Tel:098-861-3325 Fax:098-866-0202</td></tr>
+                                        <tr><td>実技トレーニングオリエンテーションマニュアルを</td></tr>
+                                        <tr><td>ダウンロード・印刷して当店にご持参ください。</td></tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                            <button type="button" class="btn btn-primary btn-lg btn-block">
+                            <a href="http://www.net-diver.org/jitsugi/jitsugi.htm" target="_blank">実技の為のマニュアルをダウンロードしましょう！</a>
+                            </button>
+                            </div>
+                        </div>
+                        <div class="span6 " id="first-person">
+                            <div class="thumbnail">
+                                <img src="img/5.jpg" alt="team 1">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- オプションツアー終了 -->
+        <!--  tab 終了 -->
+
+
+
         <!-- 注意事項start -->
         <div class="section third-section">
             <div class="container newsletter">

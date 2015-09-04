@@ -779,3 +779,64 @@ umigame.html  開始
 /*
 umigame.html  終了
 **********************************************************************/
+
+/*
+license.html  開始
+**********************************************************************/
+.l_top_box01{
+    background-image: url(../img/u_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+/*タブ開始*/
+div#license_tab {
+    height: 600px;
+}
+.tabs {
+    position: relative;
+    padding: 0;
+}
+.tabs li {
+    list-style: none;
+    display: inline-block;
+}
+.tabs input[type=radio] {
+    display: none;
+}
+.tabs label {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    line-height: 20px;
+    background-color: #999999;
+    color: #ffffff;
+}
+.tabs label:hover {
+    background-color: #cccccc;
+    color: #000000;
+}
+.tabs input[type=radio]:checked + label {
+    background-color: #ffffff;
+    color: #000000;
+}
+.tabs .contents {
+    display: none;
+    position: absolute;
+    top:30px;
+    left: 0;
+    padding: 10px;
+    background: #ffffff;
+}
+.tabs input[type=radio]:checked + label + .contents{
+    display: block;
+}
+
+/*タブ終了*/
+/*
+license.html  終了
+**********************************************************************/
